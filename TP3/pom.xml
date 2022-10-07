@@ -95,12 +95,22 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>3.14.0</version>
 			</plugin>
 		</plugins>
 
 	</reporting>
+	
+	<scm>
+		<connection>scm:git:git@github.com:Snikyy4/mavenProject.git</connection>
+		<url>https://github.com/Snikyy4/mavenProject</url>
+	</scm>
+
 
 	<dependencies>
 		<dependency>

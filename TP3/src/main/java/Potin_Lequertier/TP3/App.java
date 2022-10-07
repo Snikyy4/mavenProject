@@ -22,5 +22,8 @@ public class App
     	return x+10;
     }
     
+    public int fonctionTestGit(int x) {
+    	return x+1;
+    }
 
 }
